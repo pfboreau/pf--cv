@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #272727;
+  font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+  position: absolute;
+  top: 5%;
+  left: 75%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.navMenu a {
+  color: #325553;
+  text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  width: 90px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:hover {
+  color: #bebebe;
+}
+
+.navMenu .dot {
+  width: 6px;
+  height: 6px;
+  background: #60f1ad;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.navMenu a:nth-child(1):hover ~ .dot {
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(2):hover ~ .dot {
+  -webkit-transform: translateX(110px);
+  transform: translateX(110px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(3):hover ~ .dot {
+  -webkit-transform: translateX(200px);
+  transform: translateX(200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+
+.navMenu a:nth-child(4):hover ~ .dot {
+  -webkit-transform: translateX(285px);
+  transform: translateX(285px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 1;
+}
+    
+body{
+background-image: url("photo/accueil.png");
+background-repeat:no-repeat;
+}
+
+
+.texte h1{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #325553;
+    font-size: 100px;
+    padding: 140px;
+    margin-left: 17%;
+}
+
+.texte h2{
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #325553;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    bottom: 135px;
+    left: 160px;
+    text-decoration: underline;
+    text-underline-position: under
+}
+
+.texte h3{
+    font-family: 'Quicksand', sans-serif;
+    color: #818181;
+    position: relative;
+    bottom: 135px;
+    margin-left: 740px;
+}
+
+.boutons{
+    background: none;
+    border: 2px solid #325553;
+    border-radius: 10px;
+    color: #325553;
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px auto;
+    padding: 2em 6em;
+    position: relative;
+    text-transform: uppercase;
+    left: 250px;
+    bottom: 100px;
+}
